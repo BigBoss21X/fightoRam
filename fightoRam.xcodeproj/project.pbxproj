@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E27FD1A51C1F67AE00A2164E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27FD1A41C1F67AE00A2164E /* AppDelegate.swift */; };
+		E27FD1A71C1F67AE00A2164E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27FD1A61C1F67AE00A2164E /* ViewController.swift */; };
+		E27FD1AA1C1F67AE00A2164E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27FD1A81C1F67AE00A2164E /* Main.storyboard */; };
+		E27FD1AC1C1F67AE00A2164E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27FD1AB1C1F67AE00A2164E /* Assets.xcassets */; };
+		E27FD1AF1C1F67AE00A2164E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27FD1AD1C1F67AE00A2164E /* LaunchScreen.storyboard */; };
+		E27FD1BA1C1F67AE00A2164E /* fightoRamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27FD1B91C1F67AE00A2164E /* fightoRamTests.swift */; };
+		E27FD1C51C1F67AE00A2164E /* fightoRamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27FD1C41C1F67AE00A2164E /* fightoRamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E27FD1B61C1F67AE00A2164E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E27FD1991C1F67AE00A2164E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E27FD1A01C1F67AE00A2164E;
+			remoteInfo = fightoRam;
+		};
+		E27FD1C11C1F67AE00A2164E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E27FD1991C1F67AE00A2164E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E27FD1A01C1F67AE00A2164E;
+			remoteInfo = fightoRam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E27FD1A11C1F67AE00A2164E /* fightoRam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fightoRam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27FD1A41C1F67AE00A2164E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E27FD1A61C1F67AE00A2164E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E27FD1A91C1F67AE00A2164E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E27FD1AB1C1F67AE00A2164E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E27FD1AE1C1F67AE00A2164E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E27FD1B01C1F67AE00A2164E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27FD1B51C1F67AE00A2164E /* fightoRamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fightoRamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27FD1B91C1F67AE00A2164E /* fightoRamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fightoRamTests.swift; sourceTree = "<group>"; };
+		E27FD1BB1C1F67AE00A2164E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27FD1C01C1F67AE00A2164E /* fightoRamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fightoRamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27FD1C41C1F67AE00A2164E /* fightoRamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fightoRamUITests.swift; sourceTree = "<group>"; };
+		E27FD1C61C1F67AE00A2164E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E27FD19E1C1F67AE00A2164E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27FD1B21C1F67AE00A2164E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27FD1BD1C1F67AE00A2164E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E27FD1981C1F67AE00A2164E = {
+			isa = PBXGroup;
+			children = (
+				E27FD1A31C1F67AE00A2164E /* fightoRam */,
+				E27FD1B81C1F67AE00A2164E /* fightoRamTests */,
+				E27FD1C31C1F67AE00A2164E /* fightoRamUITests */,
+				E27FD1A21C1F67AE00A2164E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E27FD1A21C1F67AE00A2164E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E27FD1A11C1F67AE00A2164E /* fightoRam.app */,
+				E27FD1B51C1F67AE00A2164E /* fightoRamTests.xctest */,
+				E27FD1C01C1F67AE00A2164E /* fightoRamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E27FD1A31C1F67AE00A2164E /* fightoRam */ = {
+			isa = PBXGroup;
+			children = (
+				E27FD1A41C1F67AE00A2164E /* AppDelegate.swift */,
+				E27FD1A61C1F67AE00A2164E /* ViewController.swift */,
+				E27FD1A81C1F67AE00A2164E /* Main.storyboard */,
+				E27FD1AB1C1F67AE00A2164E /* Assets.xcassets */,
+				E27FD1AD1C1F67AE00A2164E /* LaunchScreen.storyboard */,
+				E27FD1B01C1F67AE00A2164E /* Info.plist */,
+			);
+			path = fightoRam;
+			sourceTree = "<group>";
+		};
+		E27FD1B81C1F67AE00A2164E /* fightoRamTests */ = {
+			isa = PBXGroup;
+			children = (
+				E27FD1B91C1F67AE00A2164E /* fightoRamTests.swift */,
+				E27FD1BB1C1F67AE00A2164E /* Info.plist */,
+			);
+			path = fightoRamTests;
+			sourceTree = "<group>";
+		};
+		E27FD1C31C1F67AE00A2164E /* fightoRamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E27FD1C41C1F67AE00A2164E /* fightoRamUITests.swift */,
+				E27FD1C61C1F67AE00A2164E /* Info.plist */,
+			);
+			path = fightoRamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E27FD1A01C1F67AE00A2164E /* fightoRam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27FD1C91C1F67AE00A2164E /* Build configuration list for PBXNativeTarget "fightoRam" */;
+			buildPhases = (
+				E27FD19D1C1F67AE00A2164E /* Sources */,
+				E27FD19E1C1F67AE00A2164E /* Frameworks */,
+				E27FD19F1C1F67AE00A2164E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fightoRam;
+			productName = fightoRam;
+			productReference = E27FD1A11C1F67AE00A2164E /* fightoRam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E27FD1B41C1F67AE00A2164E /* fightoRamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27FD1CC1C1F67AE00A2164E /* Build configuration list for PBXNativeTarget "fightoRamTests" */;
+			buildPhases = (
+				E27FD1B11C1F67AE00A2164E /* Sources */,
+				E27FD1B21C1F67AE00A2164E /* Frameworks */,
+				E27FD1B31C1F67AE00A2164E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E27FD1B71C1F67AE00A2164E /* PBXTargetDependency */,
+			);
+			name = fightoRamTests;
+			productName = fightoRamTests;
+			productReference = E27FD1B51C1F67AE00A2164E /* fightoRamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E27FD1BF1C1F67AE00A2164E /* fightoRamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27FD1CF1C1F67AE00A2164E /* Build configuration list for PBXNativeTarget "fightoRamUITests" */;
+			buildPhases = (
+				E27FD1BC1C1F67AE00A2164E /* Sources */,
+				E27FD1BD1C1F67AE00A2164E /* Frameworks */,
+				E27FD1BE1C1F67AE00A2164E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E27FD1C21C1F67AE00A2164E /* PBXTargetDependency */,
+			);
+			name = fightoRamUITests;
+			productName = fightoRamUITests;
+			productReference = E27FD1C01C1F67AE00A2164E /* fightoRamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E27FD1991C1F67AE00A2164E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Anesh Ramchurran";
+				TargetAttributes = {
+					E27FD1A01C1F67AE00A2164E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WBS98WA9Z9;
+					};
+					E27FD1B41C1F67AE00A2164E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WBS98WA9Z9;
+						TestTargetID = E27FD1A01C1F67AE00A2164E;
+					};
+					E27FD1BF1C1F67AE00A2164E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = WBS98WA9Z9;
+						TestTargetID = E27FD1A01C1F67AE00A2164E;
+					};
+				};
+			};
+			buildConfigurationList = E27FD19C1C1F67AE00A2164E /* Build configuration list for PBXProject "fightoRam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E27FD1981C1F67AE00A2164E;
+			productRefGroup = E27FD1A21C1F67AE00A2164E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E27FD1A01C1F67AE00A2164E /* fightoRam */,
+				E27FD1B41C1F67AE00A2164E /* fightoRamTests */,
+				E27FD1BF1C1F67AE00A2164E /* fightoRamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E27FD19F1C1F67AE00A2164E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27FD1AF1C1F67AE00A2164E /* LaunchScreen.storyboard in Resources */,
+				E27FD1AC1C1F67AE00A2164E /* Assets.xcassets in Resources */,
+				E27FD1AA1C1F67AE00A2164E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27FD1B31C1F67AE00A2164E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27FD1BE1C1F67AE00A2164E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E27FD19D1C1F67AE00A2164E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27FD1A71C1F67AE00A2164E /* ViewController.swift in Sources */,
+				E27FD1A51C1F67AE00A2164E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27FD1B11C1F67AE00A2164E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27FD1BA1C1F67AE00A2164E /* fightoRamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27FD1BC1C1F67AE00A2164E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27FD1C51C1F67AE00A2164E /* fightoRamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E27FD1B71C1F67AE00A2164E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E27FD1A01C1F67AE00A2164E /* fightoRam */;
+			targetProxy = E27FD1B61C1F67AE00A2164E /* PBXContainerItemProxy */;
+		};
+		E27FD1C21C1F67AE00A2164E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E27FD1A01C1F67AE00A2164E /* fightoRam */;
+			targetProxy = E27FD1C11C1F67AE00A2164E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E27FD1A81C1F67AE00A2164E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E27FD1A91C1F67AE00A2164E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E27FD1AD1C1F67AE00A2164E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E27FD1AE1C1F67AE00A2164E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E27FD1C71C1F67AE00A2164E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E27FD1C81C1F67AE00A2164E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E27FD1CA1C1F67AE00A2164E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fightoRam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNA.fightoRam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E27FD1CB1C1F67AE00A2164E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fightoRam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNA.fightoRam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E27FD1CD1C1F67AE00A2164E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fightoRamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNA.fightoRamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fightoRam.app/fightoRam";
+			};
+			name = Debug;
+		};
+		E27FD1CE1C1F67AE00A2164E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = fightoRamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNA.fightoRamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fightoRam.app/fightoRam";
+			};
+			name = Release;
+		};
+		E27FD1D01C1F67AE00A2164E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fightoRamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNA.fightoRamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fightoRam;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E27FD1D11C1F67AE00A2164E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = fightoRamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DNA.fightoRamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = fightoRam;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E27FD19C1C1F67AE00A2164E /* Build configuration list for PBXProject "fightoRam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27FD1C71C1F67AE00A2164E /* Debug */,
+				E27FD1C81C1F67AE00A2164E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27FD1C91C1F67AE00A2164E /* Build configuration list for PBXNativeTarget "fightoRam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27FD1CA1C1F67AE00A2164E /* Debug */,
+				E27FD1CB1C1F67AE00A2164E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E27FD1CC1C1F67AE00A2164E /* Build configuration list for PBXNativeTarget "fightoRamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27FD1CD1C1F67AE00A2164E /* Debug */,
+				E27FD1CE1C1F67AE00A2164E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E27FD1CF1C1F67AE00A2164E /* Build configuration list for PBXNativeTarget "fightoRamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27FD1D01C1F67AE00A2164E /* Debug */,
+				E27FD1D11C1F67AE00A2164E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E27FD1991C1F67AE00A2164E /* Project object */;
+}
